@@ -1,0 +1,35 @@
+.courseDetail{
+    width: 100%;
+    overflow: hidden;
+     
+}
+.courseDetail .courseDetail-main{
+    display: flex;
+    gap: 38px;
+    align-items: center;
+}
+.courseDetail .courseDetail-main .courseDetail-side1{
+    width: 550px;
+    overflow: hidden;
+}
+.courseDetail .courseDetail-main .courseDetail-side1 img{
+    width: 100%;
+}
+.courseDetail .courseDetail-main .courseDetail-side2{
+    width: 600px;
+}
+@media (max-width:900px){
+    .courseDetail .courseDetail-main{
+        flex-direction: column;
+        gap: 28px;
+        padding: 6px;
+    }
+    .courseDetail .courseDetail-main .courseDetail-side1{
+        width: 100%;
+    }
+    .courseDetail .courseDetail-main .courseDetail-side2{
+        width: 100%;
+    }
+
+    
+}
