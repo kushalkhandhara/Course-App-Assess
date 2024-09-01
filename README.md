@@ -1,5 +1,4 @@
-# Course Management System
-
+# Course Website for students
 Welcome to the Course Website This project allows users to view, search, and enroll in courses. The application is built using React and leverages Redux for state management.
 
 ## Features
